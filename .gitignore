@@ -1,0 +1,2 @@
+# we use gitignore to ignore the files we don't want to push to github
+venv
