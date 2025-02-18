@@ -1,3 +1,4 @@
+import os
 """
 Django settings for todopro project.
 
@@ -37,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'todoapi.apps.TodoapiConfig'
+    'todoapi.apps.TodoapiConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
